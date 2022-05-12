@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Context path="/Web_de_Productos">
+
+<Resource name = "jdbc/pruebas" auth="Container" type="javax.sql.DataSource"
+
+maxActive="15" maxIdle="3" maxWait="5000"
+
+username="MANUEL" password="123"
+driverClassName= "oracle.jdbc.OracleDriver"
+url="jdbc:oracle:thin:@localhost:1521:orcl">
+</Resource>
+
+</Context>
